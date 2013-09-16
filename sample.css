@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document 
+Andrew Wong
+CSCIE15
+9/15/13
+*/
+
+body {
+	background-color: #1C263C;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+}
+
+h1{
+	color: #9CFF00;
+}
+h2 {
+	color: #B6C0D2;
+}
+h3 {
+	color: #9CFF00;
+}
+
+a:link {
+	color:#09F;
+	text-decoration: none;
+}
+a:visited {
+	color:#CC0202;
+}
+a:hover {
+	color:#54FCFC;
+	text-decoration: none;
+}
+
+.p1{
+	font-style:italic;
+}
+
+.p2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#container {
+     width: 800px;
+     margin:0 auto; 
+}
+#pageHeader{
+	background-color:#1C263C;
+	}
+#intro{
+	background-color:#313C53;
+	padding: 10px;
+	border: 3px solid #FFFFFF;
+}
+#pic{
+	 text-align:center;
+     vertical-align:top;
+	}
+
+#mainText{
+	width: 578px;
+	background-color: #455268;
+	padding: 10px;
+	float: right;
+	border: 1px solid #FFFFFF;
+}
+#explanation{
+	background-color:#1C263C;	
+	padding: 10px; 
+	}
+
+#linkList {
+	width: 178px;
+	background-color:#455268;
+	padding: 10px;
+	float: left;
+	border: 1px solid #FFFFFF;
+}
+#linkList2{
+	background-color:#1C263C;
+	padding: 2px; 
+	}
+#participation{
+	background-color:#1C263C;
+    padding: 10px; 
+	}
